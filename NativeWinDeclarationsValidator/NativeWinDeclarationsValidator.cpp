@@ -50,12 +50,13 @@ void PrintContextStruct()
 	cout << "ULONGLONG: " << sizeof(ULONGLONG) << " bytes" << endl;
 	cout << "LONGLONG: " << sizeof(LONGLONG) << " bytes" << endl;
 	cout << "M128A: " << sizeof(M128A) << " bytes" << endl;
-	cout << "XMM_SAVE_AREA32: " << sizeof(XMM_SAVE_AREA32) << " bytes" << endl;
+	//cout << "XMM_SAVE_AREA32: " << sizeof(XMM_SAVE_AREA32) << " bytes" << endl;
 
 	cout << endl;
 	cout << "Member Offsets:" << endl;
 	cout << "---------------" << endl;
 
+	/*
 	PRINTMBR(P1Home);
 	PRINTMBR(P2Home);
 	PRINTMBR(P3Home);
@@ -63,6 +64,6 @@ void PrintContextStruct()
 	PRINTMBR(P5Home);
 	PRINTMBR(P6Home);
 	PRINTMBR(ContextFlags);
-
+	*/
 }
 

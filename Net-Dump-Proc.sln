@@ -1,0 +1,213 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnManaged", "UnManaged", "{F841D74E-B088-46F0-ADDF-375E4D4675B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NativeWinDeclarationsValidator", "NativeWinDeclarationsValidator", "{529AC8FB-4DCF-4452-B2AB-61CBCCC4062F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managed", "Managed", "{BD8E221A-62E8-4DC0-96DC-73271E30C23D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Findings", "Findings", "{A594DB5B-1549-4338-AC6B-83AFD850D83C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnterCriticalSectionTest_UnManaged", "EnterCriticalSectionTest_UnManaged", "{6565BA0D-9F2F-4E58-AF87-0EBF290A4C7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WaitForMultipleObjectsTest_UnManaged", "WaitForMultipleObjectsTest_UnManaged", "{0F87E3F7-1198-4E32-835E-9643D6B9230C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WaitForSingleObjectTest_UnManaged", "WaitForSingleObjectTest_UnManaged", "{FD133E80-4A9E-45DC-BE24-D724591FBEE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaitForSingleObjectTest_UnManaged", "UnManaged\WaitForSingleObjectTest_UnManaged\WaitForSingleObjectTest_UnManaged.vcxproj", "{EDCC034A-4E88-4FE4-84C0-8415E60939F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaitForMultipleObjectsTest_UnManaged", "UnManaged\WaitForMultipleObjectsTest_UnManaged\WaitForMultipleObjectsTest_UnManaged.vcxproj", "{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EnterCriticalSectionTest_UnManaged", "UnManaged\EnterCriticalSectionTest_UnManaged\EnterCriticalSectionTest_UnManaged.vcxproj", "{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeWinDeclarationsValidator", "NativeWinDeclarationsValidator\NativeWinDeclarationsValidator.vcxproj", "{5022FA36-61C0-4803-B7A7-772FC0C040CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WaitForSingleObjectTest_Managed", "WaitForSingleObjectTest_Managed", "{79DD9BA4-7CA3-47C1-ABFC-7238CA5040D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WaitForMultipleObjectsTest_Managed", "WaitForMultipleObjectsTest_Managed", "{55BE6FE5-5B9F-4ADF-A1D2-137CD6B15810}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnterCriticalSectionTest_Managed", "EnterCriticalSectionTest_Managed", "{BE03CC63-3E79-49C1-A5D2-3C1037D055C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DumpTest", "DumpTest", "{14EAE9B5-8048-4B37-A250-78183B444E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumpTest", "Managed\DumpTest\DumpTest.csproj", "{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterCriticalSectionTest_Managed", "Managed\EnterCriticalSectionTest_Managed\EnterCriticalSectionTest_Managed.csproj", "{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitForMultipleObjectsTest_Managed", "Managed\WaitForMultipleObjectsTest_Managed\WaitForMultipleObjectsTest_Managed.csproj", "{F09BCC4A-6AD7-487E-9661-A05398DA6950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitForSingleObjectTest_Managed", "Managed\WaitForSingleObjectTest_Managed\WaitForSingleObjectTest_Managed.csproj", "{21529D91-3355-408B-89C0-DD202DBD7AFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows_Server_2012_R2", "Windows_Server_2012_R2", "{2BB1D182-9473-445D-8AA0-26A3E5E86845}"
+	ProjectSection(SolutionItems) = preProject
+		Findings\Windows_Server_2012_R2\EnterCriticalSection_WinDbg_OutPut.txt = Findings\Windows_Server_2012_R2\EnterCriticalSection_WinDbg_OutPut.txt
+		Findings\Windows_Server_2012_R2\WaitForMultipleObjects_WinDbg_Output.txt = Findings\Windows_Server_2012_R2\WaitForMultipleObjects_WinDbg_Output.txt
+		Findings\Windows_Server_2012_R2\WaitForSingleObject_WinDbg_Output.txt = Findings\Windows_Server_2012_R2\WaitForSingleObject_WinDbg_Output.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows_Server_2012", "Windows_Server_2012", "{030223AB-1FE3-4F26-BA36-0656DAB0F28C}"
+	ProjectSection(SolutionItems) = preProject
+		Findings\Windows_Server_2012\EnterCriticalSectionTest_UnManaged.txt = Findings\Windows_Server_2012\EnterCriticalSectionTest_UnManaged.txt
+		Findings\Windows_Server_2012\WaitForMultipleObjectsTest_UnManaged.txt = Findings\Windows_Server_2012\WaitForMultipleObjectsTest_UnManaged.txt
+		Findings\Windows_Server_2012\WaitForSingleObjectTest_UnManaged.txt = Findings\Windows_Server_2012\WaitForSingleObjectTest_UnManaged.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win10", "Win10", "{FDB9E9BF-84E6-4BB1-8F0F-6B799C89551C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WaitForSingleObject", "WaitForSingleObject", "{A1B82257-A543-4C6B-8EC6-6B745A86A573}"
+	ProjectSection(SolutionItems) = preProject
+		Findings\Win10\WaitForSingleObject\Csharp_WaitForSingleObjectTest_ConsoleOutput.txt = Findings\Win10\WaitForSingleObject\Csharp_WaitForSingleObjectTest_ConsoleOutput.txt
+		Findings\Win10\WaitForSingleObject\Csharp_WaitForSingleObjectTest_WinDbgOutput.txt = Findings\Win10\WaitForSingleObject\Csharp_WaitForSingleObjectTest_WinDbgOutput.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WaitForMultipleObjects", "WaitForMultipleObjects", "{90AEA9CC-B044-4181-AC7E-E2681F1847B4}"
+	ProjectSection(SolutionItems) = preProject
+		Findings\Win10\WaitForMultipleObjects\Cpp_WaitForMultipleObjects_ConsoleOutput.txt = Findings\Win10\WaitForMultipleObjects\Cpp_WaitForMultipleObjects_ConsoleOutput.txt
+		Findings\Win10\WaitForMultipleObjects\Cpp_WaitForMultipleObjects_WinDbgOutput.txt = Findings\Win10\WaitForMultipleObjects\Cpp_WaitForMultipleObjects_WinDbgOutput.txt
+		Findings\Win10\WaitForMultipleObjects\Csharp_WaitForMultipleObjects_ConsoleOutput.txt = Findings\Win10\WaitForMultipleObjects\Csharp_WaitForMultipleObjects_ConsoleOutput.txt
+		Findings\Win10\WaitForMultipleObjects\Csharp_WaitForMultipleObjects_WinDbgOutput.txt = Findings\Win10\WaitForMultipleObjects\Csharp_WaitForMultipleObjects_WinDbgOutput.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnterCriticalSection", "EnterCriticalSection", "{BD2B256E-A829-4B8C-AB4A-FF342B298B5C}"
+	ProjectSection(SolutionItems) = preProject
+		Findings\Win10\EnterCriticalSection\Cpp_EnterCriticalSectionTest_ConsoleOutPut.txt = Findings\Win10\EnterCriticalSection\Cpp_EnterCriticalSectionTest_ConsoleOutPut.txt
+		Findings\Win10\EnterCriticalSection\Csharp_EnterCriticalSectionTest_WinDbgOutput.txt.txt = Findings\Win10\EnterCriticalSection\Csharp_EnterCriticalSectionTest_WinDbgOutput.txt.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win_7", "Win_7", "{4A444129-0173-4BE0-9DCA-F68111FD5E45}"
+	ProjectSection(SolutionItems) = preProject
+		Findings\Win_7\EnterCriticalSectionTest_UnManaged_Cpp.txt = Findings\Win_7\EnterCriticalSectionTest_UnManaged_Cpp.txt
+		Findings\Win_7\WaitForMultipleObjectsTest_UnManaged_Cpp.txt = Findings\Win_7\WaitForMultipleObjectsTest_UnManaged_Cpp.txt
+		Findings\Win_7\WaitForSingleObjectTest_UnManaged_Cpp.txt = Findings\Win_7\WaitForSingleObjectTest_UnManaged_Cpp.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Debug|x64.ActiveCfg = Debug|x64
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Debug|x64.Build.0 = Debug|x64
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Debug|x86.Build.0 = Debug|Win32
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Release|Any CPU.ActiveCfg = Release|Win32
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Release|x64.ActiveCfg = Release|x64
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Release|x64.Build.0 = Release|x64
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Release|x86.ActiveCfg = Release|Win32
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4}.Release|x86.Build.0 = Release|Win32
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Debug|x64.ActiveCfg = Debug|x64
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Debug|x64.Build.0 = Debug|x64
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Debug|x86.Build.0 = Debug|Win32
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Release|Any CPU.ActiveCfg = Release|Win32
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Release|x64.ActiveCfg = Release|x64
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Release|x64.Build.0 = Release|x64
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Release|x86.ActiveCfg = Release|Win32
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1}.Release|x86.Build.0 = Release|Win32
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Debug|x64.ActiveCfg = Debug|x64
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Debug|x64.Build.0 = Debug|x64
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Debug|x86.ActiveCfg = Debug|Win32
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Debug|x86.Build.0 = Debug|Win32
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Release|Any CPU.ActiveCfg = Release|Win32
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Release|x64.ActiveCfg = Release|x64
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Release|x64.Build.0 = Release|x64
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Release|x86.ActiveCfg = Release|Win32
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E}.Release|x86.Build.0 = Release|Win32
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Debug|x64.ActiveCfg = Debug|x64
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Debug|x64.Build.0 = Debug|x64
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Debug|x86.Build.0 = Debug|Win32
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Release|Any CPU.ActiveCfg = Release|Win32
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Release|x64.ActiveCfg = Release|x64
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Release|x64.Build.0 = Release|x64
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Release|x86.ActiveCfg = Release|Win32
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB}.Release|x86.Build.0 = Release|Win32
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Debug|x64.ActiveCfg = Debug|x64
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Debug|x64.Build.0 = Debug|x64
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Debug|x86.Build.0 = Debug|Any CPU
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Release|x64.ActiveCfg = Release|x64
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Release|x64.Build.0 = Release|x64
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Release|x86.ActiveCfg = Release|Any CPU
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64}.Release|x86.Build.0 = Release|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Debug|x64.Build.0 = Debug|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Release|x64.ActiveCfg = Release|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Release|x64.Build.0 = Release|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7}.Release|x86.Build.0 = Release|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Debug|x64.Build.0 = Debug|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Debug|x86.Build.0 = Debug|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Release|x64.ActiveCfg = Release|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Release|x64.Build.0 = Release|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Release|x86.ActiveCfg = Release|Any CPU
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950}.Release|x86.Build.0 = Release|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Debug|x64.Build.0 = Debug|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Debug|x86.Build.0 = Debug|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Release|x64.ActiveCfg = Release|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Release|x64.Build.0 = Release|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Release|x86.ActiveCfg = Release|Any CPU
+		{21529D91-3355-408B-89C0-DD202DBD7AFA}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6565BA0D-9F2F-4E58-AF87-0EBF290A4C7A} = {F841D74E-B088-46F0-ADDF-375E4D4675B3}
+		{0F87E3F7-1198-4E32-835E-9643D6B9230C} = {F841D74E-B088-46F0-ADDF-375E4D4675B3}
+		{FD133E80-4A9E-45DC-BE24-D724591FBEE1} = {F841D74E-B088-46F0-ADDF-375E4D4675B3}
+		{EDCC034A-4E88-4FE4-84C0-8415E60939F4} = {FD133E80-4A9E-45DC-BE24-D724591FBEE1}
+		{49D7EB30-D0FD-4A12-A035-7B44BDB23BF1} = {0F87E3F7-1198-4E32-835E-9643D6B9230C}
+		{87702CA2-8CEF-4058-9205-DC7D51BB9F4E} = {6565BA0D-9F2F-4E58-AF87-0EBF290A4C7A}
+		{5022FA36-61C0-4803-B7A7-772FC0C040CB} = {529AC8FB-4DCF-4452-B2AB-61CBCCC4062F}
+		{79DD9BA4-7CA3-47C1-ABFC-7238CA5040D9} = {BD8E221A-62E8-4DC0-96DC-73271E30C23D}
+		{55BE6FE5-5B9F-4ADF-A1D2-137CD6B15810} = {BD8E221A-62E8-4DC0-96DC-73271E30C23D}
+		{BE03CC63-3E79-49C1-A5D2-3C1037D055C8} = {BD8E221A-62E8-4DC0-96DC-73271E30C23D}
+		{14EAE9B5-8048-4B37-A250-78183B444E86} = {BD8E221A-62E8-4DC0-96DC-73271E30C23D}
+		{A84B20BE-D34E-46D0-9ECC-03DCA643DE64} = {14EAE9B5-8048-4B37-A250-78183B444E86}
+		{4B5F5593-6F07-4869-A49D-E5AADA56D3C7} = {BE03CC63-3E79-49C1-A5D2-3C1037D055C8}
+		{F09BCC4A-6AD7-487E-9661-A05398DA6950} = {55BE6FE5-5B9F-4ADF-A1D2-137CD6B15810}
+		{21529D91-3355-408B-89C0-DD202DBD7AFA} = {79DD9BA4-7CA3-47C1-ABFC-7238CA5040D9}
+		{2BB1D182-9473-445D-8AA0-26A3E5E86845} = {A594DB5B-1549-4338-AC6B-83AFD850D83C}
+		{030223AB-1FE3-4F26-BA36-0656DAB0F28C} = {A594DB5B-1549-4338-AC6B-83AFD850D83C}
+		{FDB9E9BF-84E6-4BB1-8F0F-6B799C89551C} = {A594DB5B-1549-4338-AC6B-83AFD850D83C}
+		{A1B82257-A543-4C6B-8EC6-6B745A86A573} = {FDB9E9BF-84E6-4BB1-8F0F-6B799C89551C}
+		{90AEA9CC-B044-4181-AC7E-E2681F1847B4} = {FDB9E9BF-84E6-4BB1-8F0F-6B799C89551C}
+		{BD2B256E-A829-4B8C-AB4A-FF342B298B5C} = {FDB9E9BF-84E6-4BB1-8F0F-6B799C89551C}
+		{4A444129-0173-4BE0-9DCA-F68111FD5E45} = {FDB9E9BF-84E6-4BB1-8F0F-6B799C89551C}
+	EndGlobalSection
+EndGlobal
